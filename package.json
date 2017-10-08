@@ -1,0 +1,28 @@
+{
+  "name": "hl-elearning-api",
+  "version": "0.0.1",
+  "description": "API to manage e-learning platforms",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "hapi": "^16.6.2"
+  },
+  "engines": {
+    "node": "6.11.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hlapps/hl-elearning-api"
+  },
+  "keywords": [
+    "e-learning"
+  ],
+  "author": "DavidAJMP",
+  "contributors": [
+    "David Mendoza <david@hlapps.io> ",
+    "Andrés Madero <andres@hlapps.io> "
+  ],
+  "license": "MIT"
+}
