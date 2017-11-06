@@ -4,10 +4,19 @@
   "description": "API to manage e-learning platforms",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "dev": "nodemon index.js"
   },
   "dependencies": {
-    "hapi": "^16.6.2"
+    "hapi": "^16.6.2",
+    "hapi-cors": "^1.0.1",
+    "knex": "^0.13.0",
+    "mysql": "^2.15.0",
+    "joi": "^13.0.1",
+    "asyncawait": "^1.0.6"
+  },
+  "devDependencies": {
+    "nodemon": "^1.12.1"
   },
   "engines": {
     "node": "6.11.3"
@@ -21,8 +30,7 @@
   ],
   "author": "DavidAJMP",
   "contributors": [
-    "David Mendoza <david@hlapps.io> ",
-    "Andrés Madero <andres@hlapps.io> "
+    "David Mendoza <david@hlapps.io> "
   ],
   "license": "MIT"
 }
