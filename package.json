@@ -10,7 +10,7 @@
   "dependencies": {
     "hapi": "^16.6.2",
     "hapi-cors": "^1.0.1",
-    "knex": "^0.13.0",
+    "knex": "^2.3.0",
     "mysql": "^2.15.0",
     "joi": "^13.0.1",
     "asyncawait": "^1.0.6"
